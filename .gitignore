@@ -1,0 +1,64 @@
+# =============================================================================
+# 🔐 SECURITY: NEVER COMMIT THESE TO GITHUB
+# =============================================================================
+
+# Personal data and reports (CRITICAL!)
+data/
+*.pdf
+*.md
+!README.md
+
+# Environment and secrets
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.secret
+credentials.json
+service_account.json
+openclaw.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+*.egg
+
+# Logs
+*.log
+logs/
+
+# Virtual environments
+.venv
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Portal specific
+web-portal.log
+
+# =============================================================================
+# BEFORE COMMITTING, ALWAYS RUN:
+#   git status
+#   git diff --cached
+#   git check-ignore -v <filename>
+# 
+# IF UNSURE → ASK BEFORE COMMITTING!
+# =============================================================================
